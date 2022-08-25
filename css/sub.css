@@ -1,0 +1,92 @@
+* { margin: 0; padding: 0;}
+img { width: 100%;}
+.section_top {
+    width: 100%;
+    height: 300px;
+    background-image: url(../img/new2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #81b214;
+    text-align: center;
+    line-height: 300px;
+    font-size: 30px;
+    color: #666;
+    line-height: 300px;
+}
+.product {
+    width: 100%;
+    float: left;
+    margin-top: 160px;
+}
+.product .p_in {
+    width: 1460px;
+}
+.product .p_right {
+    float: right;
+}
+.product .p_img {
+    width: 1460px;
+    height: 810px;
+}
+.product .p_des {
+    width: 1100px;
+    margin: 80px auto;
+    color: #333;
+}
+.product .p_des div {
+    float: left;
+    padding: 60px;
+}
+.product .p_des .p_detail {
+    width: 600px;
+}
+.product .p_des div h2 {
+    font-size: 32px;
+}
+.product .p_des .p_title h2 {
+    color: #f58634;
+}
+.product .p_des div p {
+    font-size: 24px;
+    line-height: 30px;
+    color: #999;
+    /* 부모객체의 가로길이만큼 글자 자동 줄바꿈 */
+    word-wrap: break-word;
+}
+.product .p_des div button {
+    cursor: pointer;
+    padding: 15px 25px;
+    margin-top: 30px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    background-color: transparent;
+    font-size: 16px;
+    color: #80b328;
+    position: relative;
+}
+.product .p_des div button span {
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    z-index: 9;
+    padding: 15px 25px;
+    color: #999;
+}
+.product .p_des div button:after {
+    content: "";
+    position: absolute;
+    background-color: #80b328;
+    left: 0;
+    bottom: 0;
+    height: 0;
+    transition: all 0.3s;
+    width: 100%;
+}
+.product .p_des div button:hover:after {
+    height: 100%;
+}
+.product .p_des div button:hover span {
+    color: #fff;
+}

@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>와우버드</title>
+    <!--파비콘-->
+    <link rel="shortcut icon" href="img/wowbirdpavicon.png" type="img/icon">
+    <!--swiper(스와이퍼)css를 cdn으로 연결-->
+    <link rel="stylesheet"href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+    <!--외부css-->
+    <link rel="stylesheet" href="css/main.css" type="text/css">
+    <!--제이쿼리 라이브러리-->
+    <script src="js/jquery-3.6.0.js"></script>
+    <!--easing 플러그인-->
+    <script src="js/jquery.easing.1.3.js"></script>
+    <!--swiper(스와이퍼) js를 cdn으로 연결-->
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <!--외부 js-->
+    <script src="js/main.js"></script>
+</head>
+<body>
+    <div class="wrap">
+        <header>
+            <div class="top_menu">
+                <div class="member">
+                <ul>
+                    <li><a href="#">로그인</a></li>
+                    <li><a href="#">회원가입</a></li>
+                    <li><a href="#">장바구니</a></li품></ul>
+                </div>
+            </div>
+            <div class="menu_area">
+                <div class="menu1">
+                    <nav>
+                        <ul>
+                            <li><a href="#">와우버드 소개</a>
+                            <ul class="sub">
+                                <li><a href="#">와우버드</a></li>
+                                <li><a href="#">앵무새 소개</a></li>
+                            </ul>
+                            </li>
+                            <li><a href="#">와우버드 소식</a>
+                            <ul class="sub">
+                                <li><a href="#">공지사항</a></li>
+                                <li><a href="#">앵무새 소식</a></li>
+                            </ul>
+                            </li>
+                            <li><a href="#">와우버드 상품</a>
+                            <ul class="sub">
+                                <li><a href="#">신상품</a></li>
+                                <li><a href="#">인기상품</a></li>
+                                <li><a href="#">먹이&간식</a></li>
+                                <li><a href="#">새장&이동장</a></li>
+                                <li><a href="#">장난감&용품</a></li>
+                            </ul>
+                            </li>
+                            
+                        </ul>
+                    </nav>
+                </div>
+                <div class="logo"><a href="#"><img src="img/wowlogo.png" alt="로고"></a></div>
+                <div class="menu2">
+                <nav>
+                    <ul>
+                <li><a href="#">게시판</a>
+                    <ul class="sub">
+                        <li><a href="#">앵무새 게시판</a></li>
+                        <li><a href="#">후기 게시판</a></li>
+                    </ul>
+                    </li>
+                    <li><a href="#">이용안내</a>
+                    <ul class="sub">
+                        <li><a href="#">배송 안내</a></li>
+                        <li><a href="#">영업 시간 안내</a></li>
+                    </ul>
+                    </li>
+                    <li><a href="#">고객센터</a>
+                    <ul class="sub">
+                        <li><a href="#">자주묻는 질문</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">1:1문의</a></li>
+                    </ul>
+                    </li>
+                </ul>
+                </nav>
+                
+                <!--검색버튼-->
+                <div class="search">
+                    <a href="#">
+                        <img src="img/searchicon.png" alt="검색버튼">
+                    </a>
+                </div>
+                <!--메뉴버튼-->
+                <div class="total_menu">
+                    <a href="#">
+                        <img src="img/menu.png" alt="메뉴버튼">
+                    </a>
+                    </div>
+                </div>
+            </div>
+            <!--서브메뉴배경-->
+            <div class="sub_bg"></div>
+            <!--검색영역-->
+            <div class="search_area">
+                <div class="search_in">
+                    <input type="text"
+                    placeholder="궁금하신 제품이나 정보를 찾아보세요.">
+                    <a href="#"><img src="img/searchicon.png" alt="검색하기"></a>
+                </div>
+                <!--검색 영역 닫기 버튼-->
+                <a href="#"><img src="img/KakaoTalk_20220420_145907509.png" alt="검색영역 닫기"></a>
+            </div>
+        </header>
+        <section class="visual">
+            <!--swiper 플러그인-->
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide s1">
+                      <a href="#"></a>
+                          <p>전 세계에서 가장 신뢰받는 마주리.</p>
+                          <p>완벽한 영양 밸런스로 구성된</p>
+                          <p>최고의 펠렛식단을 만나보세요!</p>
+                        
+                      </a>
+                  </div>
+                  <div class="swiper-slide s2">
+                      <a href="#">
+                          <h1>친환경 장난감</h1>
+                          <p>앵무새에게 안전과 재미를!</p>
+                          <p> 와우버드에서 직수입한 친환경 장난감</p>
+                          <button>놀아주기</button>
+                  </div>
+                  <div class="swiper-slide s3">
+                      <a href="#">
+                          <h1><span>봄</span>이 왔습니다</h1>
+                          <p>와우버드가 준비한 이동장과 함께</p>
+                          <p>반려조와 <span>봄</span> 산책을 떠나세요</p>
+                          <button>함께 떠나기</button>
+                      </a>
+                  </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+              </div>
+        </section>
+        <section class="tab">
+            <div class="tab_container">
+                <h1>WOWBIRD'S</h1>
+                <div class="tab_in">
+                    <div class="tab_btn">
+                        <ul>
+                            <li><a href="#" class="active">HOUSE</a></li>
+                            <li><a href="#">FOOD</a></li>
+                            <li><a href="#">ENJOY</a></li>
+                            <li><a href="#">HEALTH</a></li>
+                        </ul>
+                    </div>
+                    <div class="tab_img">
+                        <ul>
+                            <li><a href="#"><img src="img/middlebanner.png" alt="중간배너"></a></li>
+                            <li><a href="#"><img src="img/middlebanner2.png" alt="중간배너1"></a></li>
+                            <li><a href="#"><img src="img/middlebanner3.png" alt="중간배너2"></a></li>
+                            <li><a href="#"><img src="img/middlebanner4.png" alt="중간배너3"></a></li>
+                        </ul>
+                    </div>
+                    <div class="tab_des">
+                        <ul>
+                            <li>반려조에게도 <br>필수인,<br>완벽한 주거공간<p>와우버드가 준비한 새장과 함께 <br>완벽한 삶을 함께하세요.</p> </li>
+                            <li>직접 만들었으니, <br>더 맛있게<br>더 깨끗하게<p>와우버드가 만든 수제간식으로<br>더욱 더 행복한 반려조 생활</p></li>
+                            <li>장난감도 안전하게, <br>색소 없는<br>친환경으로<p>반려조의 즐거움도<br>와우버드와 함께하세요.</p></li>
+                            <li>반려조는 물론,<br>반려인까지<br>더욱 더 청결하게<p>위생적인 반려조 생활<br>와우버드와 함께하세요.</p></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="collection">
+            <h1>WOWBIRD COLLECTION</h1>
+            <div class="tab_slide">
+                <div class="tab_title">
+                    <a href="#" class="new active">신제품</a>
+                <a href="#" class="best">인기제품</a>
+                </div>
+                <div class="tab_slide_con">
+                    <div class="tab_slide_list t1 active">
+                        <!--신제품 슬라이드-->
+                        <div class="swiper mySwiper2">
+                            <div class="swiper-wrapper">
+                              <div class="swiper-slide new1">
+                                  <h1>커피나무 사다리 그네</h1>
+                                  <p>튼튼한 무색소의 천연나무 그네</p>
+                                  <a href="#">VIEW</a>
+                                </div>
+                              <div class="swiper-slide new2">
+                                  <h1>NEW 귀욤 텐트침대</h1>
+                                  <p>내피가 분리되어 세탁이 용이합니다.</p>
+                                  <a href="#">VIEW</a>
+                              </div>
+                              <div class="swiper-slide new3">
+                                <h1>라페버스 뉴트리베리 팝콘</h1>
+                                <p>팝콘과 알곡을 함께 유산균과 깃털건강까지</p>
+                                <a href="#">VIEW</a>
+                              </div>
+                            </div>
+                            <!--swiper 왼쪽, 오른쪽 버튼-->
+                            <div class="swiper-button-next myNext2"></div>
+                            <div class="swiper-button-prev myPrev2"></div>
+                            <!--swiper 스크롤바-->
+                            <div class="swiper-scrollbar bar1"></div>
+                          </div>
+                    </div>
+                    <div class="tab_slide_list t2">
+                        <!--인기제품 슬라이드-->
+                        <div class="swiper mySwiper3">
+                            <div class="swiper-wrapper">
+                              <div class="swiper-slide best1">
+                                <h1>플레이 휠</h1>
+                                <p>5개 SET 기호도 최고 장난감</p>
+                                <a href="#">VIEW</a>
+                              </div>
+                              <div class="swiper-slide best2">
+                                <h1>대롱대롱 시소그네</h1>
+                                <p>한번 재미 붙이면 헤어 나올 수 없어요</p>
+                                <a href="#">VIEW</a>
+                              </div>
+                              <div class="swiper-slide best3">
+                                <h1>골든피스트 오스트레일리안</h1>
+                                <p>30가지 이상 천연고급재료로 만든 먹이</p>
+                                <a href="#">VIEW</a>
+                              </div>
+                            </div>
+                            <!--swiper 왼쪽, 오른쪽 버튼-->
+                            <div class="swiper-button-next myNext3"></div>
+                            <div class="swiper-button-prev myPrev3"></div>
+                            <!--swiper 스크롤바-->
+                            <div class="swiper-scrollbar bar2"></div>
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="banner">
+            <div class="banner_in">
+                <h1>WOWBIRD NEWS</h1>
+                <div class="banner_box">
+                    <div class="banner_title">
+                        와우버드의<br>새로운 소식을 알려 드립니다.
+                    </div>
+                    <div class="banner_img">
+                        <ul>
+                            <li class="event1"><a href="#">
+                                <h1>매주 갤러리 1등사진 사은품 증정</h1>
+                            </a></li>
+                            <li class="event1"><a href="#">
+                                <h1>앵무새 종을<br>입력하시면<br>앵무새 종에 따른<br>사은품 증정</h1>
+                            </a></li>
+                            <li class="event1"><a href="#">
+                                <h1>WOWBIRD
+                                </h1>
+                            </a></li>
+
+                        </ul>
+                    </div>
+                    <div class="banner_btn">
+                        <a href="#" class="active">
+                        <span>EVENT</span>
+                        <p>갤러리 1등시 사은품 증정</p>
+                        </a>
+                        <a href="#">
+                            <span>EVENT</span>
+                            <p>구입 시 사은품 증정</p>
+                            </a>
+                            <a href="#">
+                                <span>EVENT</span>
+                                <p>카카오톡 선물하기 입점</p>
+                                </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="news">
+            <div class="news_in">
+                <h1>GALLERY</h1>
+                <div class="news_list">
+                    <ul>
+                        <li><a href="#">
+                            <div class="news_img">
+                                <img src="img/Layer 1 copy.png" alt="galeery">
+                            </div>
+                        </a></li>
+                        <li><a href="#">
+                            <div class="news_img">
+                                <img src="img/Layer 8.png" alt="galeery">
+                            </div>
+                        </a></li>
+                        <li><a href="#">
+                            <div class="news_img">
+                                <img src="img/Layer 9.png" alt="galeery">
+                            </div>
+                        </a></li>
+                        <li><a href="#">
+                            <div class="news_img">
+                                <img src="img/Layer 10.png" alt="galeery">
+                            </div>
+                        </a></li>
+                        <li><a href="#">
+                            <div class="news_img">
+                                <img src="img/Layer 11.png" alt="galeery">
+                            </div>
+                        </a></li>
+                        <li><a href="#">
+                            <div class="news_img">
+                                <img src="img/Layer 12.png" alt="galeery">
+                            </div>
+                        </a></li>
+                        <li><a href="#">
+                            <div class="news_img">
+                                <img src="img/Layer 13.png" alt="galeery">
+                            </div>
+                        </a></li>
+                        <li><a href="#">
+                            <div class="news_img">
+                                <img src="img/Layer 1 copy-1.png" alt="galeery">
+                            </div>
+                        </a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="footer_in">
+                <div class="addr">
+                    <div class="company">
+                        <ul>
+                            <li><a href="#">기업정보</a></li>
+                            <li><a href="#">이용약관</a></li>
+                            <li><a href="#">개인정보처리방침</a></li>
+                            <li><a href="#">이메일무단수집거부</a></li>
+                            <li><a href="#">매장개설안내</a></li>
+                        </ul>
+                    </div>
+                    <address>
+                        주소:[742-841] 경북 상주시 공성면 이화리 문화마을길 77
+                    </address>
+                </div>
+                <div class="family">
+                    <div class="fa_title">
+                        <a href="#">EXTRANET</a>
+                    </div>
+                    <div class="fa_con">
+                        <ul>
+                            <li><a href="#">패밀리 사이트</a></li>
+                            <li><a href="#">패밀리 사이트</a></li>
+                            <li><a href="#">패밀리 사이트</a></li>
+                            <li><a href="#">패밀리 사이트</a></li>
+                        </ul>
+                        <a href="#"><img src="img/select-icon2-wht-on.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        </div>
+        <!--TOP버튼-->
+        <div class="top">TOP</div>
+        <!--사이트맵-->
+        <div class="site">
+            <div class="site_menu">
+                <nav>
+                    <ul>
+                        <li><a href="#">와우버드 소개</a>
+                            <!--라인-->
+                            <p class="line line1"></p>
+                            <!--서브메뉴-->
+                        <ul class="sub">
+                            <li><a href="#">와우버드</a></li>
+                            <li><a href="#">앵무새 소개</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">와우버드 소개</a>
+                        <!--라인-->
+                        <p class="line line2"></p>
+                        <!--서브메뉴-->
+                    <ul class="sub">
+                        <li><a href="#">와우버드</a></li>
+                        <li><a href="#">앵무새 소개</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">와우버드 소개</a>
+                    <!--라인-->
+                    <p class="line line3"></p>
+                    <!--서브메뉴-->
+                <ul class="sub">
+                    <li><a href="#">와우버드</a></li>
+                    <li><a href="#">앵무새 소개</a></li>
+                </ul>
+            </li>
+            <li><a href="#">오시는 길</a>
+                <!--라인-->
+                <p class="line line4"></p>
+                <!--서브메뉴-->
+            <ul class="sub">
+                <li><a href="#">본사</a></li>
+                <li><a href="#">제2농장</a></li>
+            </ul>
+        </li>
+       </ul>
+                </nav>
+                <div class="site_bg">
+                    <ul>
+                        <li>
+                            <img src="img/hot.png" alt="bg">
+                        </li>
+                        <li>
+                            <img src="img/hot2.png" alt="bg">
+                        </li>
+                        <li>
+                            <img src="img/hot3.png" alt="bg">
+                        </li>
+                        <li>
+                            <img src="img/hot.png" alt="bg">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+       
+        <div class="site_map">
+            <div class="site_close">
+                <a href="#"><img src="img/4781838_cancel_close_delete_exit_logout_icon.png" alt="닫기"></a>
+            </div>
+            <div class="site_nav">
+                <ul>
+                    <li><a href="#">게시판</a>
+                    <ul class="sub">
+                        <li><a href="#">앵무새 게시판</a></li>
+                        <li><a href="#">후기 게시판</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">이용안내</a>
+                    <ul class="sub">
+                        <li><a href="#">배송 안내</a></li>
+                        <li><a href="#">영업 시간안내</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">고객센터</a>
+                    <ul class="sub">
+                        <li><a href="#">자주묻는질문</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">1:1문의</a></li>
+                    </ul>
+                </li>
+                </ul>
+            </div>
+            <div class="site_banner">
+                <ul>
+                    <li><a href="#">와우버드 공식 제품몰<br>바로가기</a></li>
+                    <li><a href="#">와우버드 용품<br>바로가기</a></li>
+                    <li><a href="#">와우버드 먹이<br>바로가기</a></li>
+                </ul>
+            </div>
+        </div>
+        </div>
+</body>
+</html>
